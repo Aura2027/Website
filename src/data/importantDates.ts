@@ -10,7 +10,7 @@ export const importantDates: Milestone[] = [
   {
     id: "cfp",
     label: "Call for Papers Opens",
-    date: "Open now",
+    date: "To Be Announced",
     sortDate: "2026-01-01",
   },
   {
