@@ -73,10 +73,10 @@ export const committeeGroups: CommitteeGroup[] = [
     title: "Conference Secretaries",
     members: [
       { name: "Prof. Deepika", affiliation: FOT },
+      { name: "Prof. Ujjal Sur", affiliation: FOT },
       { name: "Prof. Jyoti Yadav", affiliation: "NSUT" },
       { name: "Prof. Neeraj Gupta", affiliation: "NIT Srinagar, J&K" },
       { name: "Prof. Prashant Malik", affiliation: "NIT Allahabad" },
-      { name: "Prof. Ujjal Sur", affiliation: FOT },
       { name: "Prof. Vinay Jandoun", affiliation: "MIT Manipal" },
     ],
   },
