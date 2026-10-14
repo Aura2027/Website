@@ -16,14 +16,14 @@ export const importantDates: Milestone[] = [
   {
     id: "submission",
     label: "Paper Submission Deadline",
-    date: "15 October 2026",
-    sortDate: "2026-10-15",
+    date: "30 November 2026",
+    sortDate: "2026-11-30",
   },
   {
     id: "notification",
     label: "Notification of Acceptance",
-    date: "15 December 2026",
-    sortDate: "2026-12-15",
+    date: "25 December 2026",
+    sortDate: "2026-12-25",
   },
   {
     id: "camera-ready",
@@ -46,8 +46,8 @@ export const importantDates: Milestone[] = [
   {
     id: "conference",
     label: "AURA 2027 Conference",
-    date: "28–29 May 2027",
-    sortDate: "2027-05-28",
+    date: "30–31 July 2027",
+    sortDate: "2027-07-30",
     note: "Maharishi Kanad Bhawan, Faculty of Technology, University of Delhi",
   },
 ];

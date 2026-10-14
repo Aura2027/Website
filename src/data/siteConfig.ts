@@ -4,10 +4,10 @@ export const siteConfig = {
   edition: "2027",
   fullTitle: "AURA 2027",
   tagline: "AI for Utilities, Renewables & Automation",
-  dates: "28–29 May 2027",
+  dates: "30–31 July 2027",
   dateRange: {
-    start: "2027-05-28",
-    end: "2027-05-29",
+    start: "2027-07-30",
+    end: "2027-07-31",
   },
   venue: {
     hall: "Maharishi Kanad Bhawan",
