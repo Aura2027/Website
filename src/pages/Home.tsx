@@ -100,11 +100,11 @@ export function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.38 }}
-            className="mt-4 max-w-2xl text-sm italic leading-relaxed text-white/50"
+            className="mt-4 max-w-2xl text-sm leading-relaxed text-white/70"
           >
             The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This
             service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud
-            services as well as for software development and support
+            services as well as for software development and support.
           </motion.p>
 
           <motion.div
