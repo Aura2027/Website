@@ -3,7 +3,20 @@ import { PageHero } from "../components/PageHero";
 import { PersonCard } from "../components/PersonCard";
 import { Reveal } from "../components/Reveal";
 import { SectionHeading } from "../components/SectionHeading";
-import { committeeGroups, internationalAdvisoryBoard, technicalProgramCommittee } from "../data/committee";
+import {
+  committeeGroups,
+  internationalAdvisoryBoard,
+  technicalProgramCommittee,
+  type Person,
+} from "../data/committee";
+
+const FOT_AFFILIATION = "Faculty of Technology, University of Delhi";
+
+// External members first, Faculty of Technology members last; original order kept within each.
+const externalFirst = (members: Person[]): Person[] => [
+  ...members.filter((m) => m.affiliation !== FOT_AFFILIATION),
+  ...members.filter((m) => m.affiliation === FOT_AFFILIATION),
+];
 
 export function Committee() {
   return (
@@ -24,7 +37,7 @@ export function Committee() {
                   <div className="mt-2 h-1 w-14 rounded-full bg-du-gold" />
                 </Reveal>
                 <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                  {group.members.map((m, idx) => (
+                  {externalFirst(group.members).map((m, idx) => (
                     <Reveal key={m.name} delay={idx * 0.04}>
                       <PersonCard person={m} />
                     </Reveal>
