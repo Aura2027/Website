@@ -116,7 +116,7 @@ export function Home() {
             {[
               { label: "Technical Tracks", value: "7" },
               { label: "Keynote & Invited Talks", value: "4–6" },
-              { label: "Publication", value: "Springer LNEE" },
+              { label: "Publication", value: "Springer (approval pending)" },
               { label: "Conference Days", value: "2" },
             ].map((s) => (
               <div key={s.label}>
