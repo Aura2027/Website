@@ -73,6 +73,9 @@ export function CallForPapers() {
                 </div>
               ))}
             </div>
+            <p className="mt-6 text-sm font-medium text-ink/75">
+              The accepted and presented paper will be published in LNEE springer
+            </p>
           </Reveal>
         </Container>
       </section>
