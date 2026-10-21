@@ -28,9 +28,12 @@ export const siteConfig = {
     review: "rigorous double-blind peer review",
   },
   submission: {
-    // Placeholder — no external submission portal supplied yet.
-    url: "#",
-    label: "Submission portal to be announced",
+    url: "https://cmt3.research.microsoft.com/AURA2027/Track/1/Submission/Create",
+    label: "Submit Your Paper",
+    portal: "Microsoft CMT",
+    accountUrl: "https://cmt3.research.microsoft.com/User/Register",
+    templateUrl:
+      "https://cms-resources.apps.public.k8s.springernature.io/springer-cms/rest/v1/content/27852136/data/Microsoft%20Word%20Proceedings%20Template%20ZIP",
   },
   registration: {
     // Placeholder — no external registration portal supplied yet.

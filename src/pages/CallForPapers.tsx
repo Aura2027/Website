@@ -65,7 +65,7 @@ export function CallForPapers() {
                 { label: "Review Process", value: "Rigorous double-blind peer review" },
                 { label: "Publication", value: siteConfig.publication.series },
                 { label: "Indexing", value: siteConfig.publication.indexing },
-                { label: "Submission Portal", value: siteConfig.submission.label },
+                { label: "Submission Portal", value: siteConfig.submission.portal },
               ].map((item) => (
                 <div key={item.label} className="rounded-xl border border-ink/8 bg-white p-5">
                   <p className="text-xs font-semibold uppercase tracking-wider text-du-maroon/70">{item.label}</p>
@@ -81,6 +81,39 @@ export function CallForPapers() {
       </section>
 
       <section className="bg-du-maroon/[0.03] py-20 sm:py-28">
+        <Container className="max-w-4xl">
+          <SectionHeading eyebrow="How to Submit" title="Before You Submit" />
+          <Reveal delay={0.1}>
+            <ul className="mt-10 list-disc space-y-3 pl-6 text-base leading-relaxed text-ink/75 marker:text-du-maroon">
+              <li>
+                <a
+                  href={siteConfig.submission.accountUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-medium text-du-maroon underline underline-offset-2 hover:text-du-maroon-dark"
+                >
+                  Create a CMT account
+                </a>{" "}
+                using the email address you want to use for this conference.
+              </li>
+              <li>Use the same account for all later steps.</li>
+              <li>Choose the subject area that best fits your paper. These match the conference themes.</li>
+              <li>
+                Upload your paper as a single PDF file (maximum 10 MB). A submission without the PDF is incomplete
+                and will not be reviewed.
+              </li>
+            </ul>
+            <div className="mt-8 flex flex-wrap gap-4">
+              <Button href={siteConfig.submission.url}>{siteConfig.submission.label}</Button>
+              <Button href={siteConfig.submission.templateUrl} variant="ghost">
+                Download Paper Template
+              </Button>
+            </div>
+          </Reveal>
+        </Container>
+      </section>
+
+      <section className="py-20 sm:py-28">
         <Container>
           <SectionHeading eyebrow="Key Deadlines" title="Submission Timeline" align="center" />
           <div className="mx-auto mt-12 grid max-w-3xl gap-5 sm:grid-cols-3">
