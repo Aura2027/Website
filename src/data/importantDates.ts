@@ -50,8 +50,8 @@ export const importantDates: Milestone[] = [
   {
     id: "conference",
     label: "AURA 2027 Conference",
-    date: "30–31 July 2027",
-    sortDate: "2027-07-30",
+    date: "29–30 July 2027",
+    sortDate: "2027-07-29",
     note: "Maharishi Kanad Bhawan, Faculty of Technology, University of Delhi",
   },
 ];
