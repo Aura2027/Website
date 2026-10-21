@@ -18,7 +18,7 @@ export const announcements: Announcement[] = [
   {
     id: "submission-deadline",
     title: "Paper submission deadline announced",
-    date: "20 February 2027",
+    date: "31 January 2027",
     category: "Deadline",
     description:
       "Authors are invited to submit full papers (8–15 pages, Springer format) for double-blind peer review ahead of the submission deadline.",

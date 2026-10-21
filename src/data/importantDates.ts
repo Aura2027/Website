@@ -16,20 +16,20 @@ export const importantDates: Milestone[] = [
   {
     id: "submission",
     label: "Paper Submission Deadline",
-    date: "20 February 2027",
-    sortDate: "2027-02-20",
+    date: "31 January 2027",
+    sortDate: "2027-01-31",
   },
   {
     id: "notification",
     label: "Notification of Acceptance",
-    date: "25 March 2027",
-    sortDate: "2027-03-25",
+    date: "15 April 2027",
+    sortDate: "2027-04-15",
   },
   {
     id: "camera-ready",
     label: "Camera-Ready Paper Submission",
-    date: "25 April 2027",
-    sortDate: "2027-04-25",
+    date: "15 May 2027",
+    sortDate: "2027-05-15",
   },
   {
     id: "early-registration",

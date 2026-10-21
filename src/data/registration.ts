@@ -30,6 +30,6 @@ export const feeSchedule: FeeRow[] = [
 ];
 
 export const registrationDeadlines = {
-  earlyBird: "15 February 2027",
-  standard: "15 April 2027",
+  earlyBird: "15 May 2027",
+  standard: "15 July 2027",
 };
