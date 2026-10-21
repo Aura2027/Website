@@ -1,17 +1,21 @@
+import { siteConfig } from "./siteConfig";
+
 export interface Milestone {
   id: string;
   label: string;
   date: string;
   sortDate: string;
   note?: string;
+  link?: { label: string; href: string };
 }
 
 export const importantDates: Milestone[] = [
   {
     id: "cfp",
-    label: "Call for Papers Opens",
-    date: "To Be Announced",
+    label: "Call for Papers Open for Submission",
+    date: "Open Now",
     sortDate: "2026-01-01",
+    link: { label: siteConfig.submission.label, href: siteConfig.submission.url },
   },
   {
     id: "submission",

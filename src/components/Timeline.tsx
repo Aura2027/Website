@@ -66,6 +66,16 @@ function MilestoneCard({
       <p className="text-sm font-semibold text-du-maroon">{milestone.date}</p>
       <p className="mt-1 font-display text-lg font-medium text-ink">{milestone.label}</p>
       {milestone.note && <p className="mt-1 text-sm text-ink/55">{milestone.note}</p>}
+      {milestone.link && (
+        <a
+          href={milestone.link.href}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-3 inline-block text-sm font-semibold text-du-maroon underline underline-offset-2 hover:text-du-maroon-dark"
+        >
+          {milestone.link.label} →
+        </a>
+      )}
     </div>
   );
 }
