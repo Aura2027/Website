@@ -2,6 +2,7 @@ export interface Person {
   name: string;
   role?: string;
   affiliation: string;
+  pinned?: boolean;
 }
 
 export interface CommitteeGroup {
@@ -20,7 +21,6 @@ export const committeeGroups: CommitteeGroup[] = [
     members: [
       {
         name: "Prof. Yogesh Singh",
-        role: "Hon'ble Vice Chancellor",
         affiliation: "University of Delhi",
       },
     ],
@@ -31,17 +31,14 @@ export const committeeGroups: CommitteeGroup[] = [
     members: [
       {
         name: "Prof. Sanjeev Singh",
-        role: "Dean",
         affiliation: FOT,
       },
       {
         name: "Prof. Sukumar Mishra",
-        role: "Director, IIT (ISM) Dhanbad & Professor, Department of Electrical Engineering",
         affiliation: "IIT Delhi",
       },
       {
         name: "Prof. Bijaya Ketan Panigrahi",
-        role: "Professor, Department of Electrical Engineering",
         affiliation: "IIT Delhi",
       },
     ],
@@ -60,7 +57,7 @@ export const committeeGroups: CommitteeGroup[] = [
     members: [
       {
         name: "Prof. Anuradha Tomar",
-        role: "Associate Professor & Head, Department of Electrical Engineering — Primary Contact",
+        pinned: true,
         affiliation: FOT,
       },
       { name: "Prof. Dushyant Sharma", affiliation: "IIT (ISM) Dhanbad" },
@@ -96,7 +93,7 @@ export const committeeGroups: CommitteeGroup[] = [
     members: [
       { name: "Prof. Ritu Kandari", affiliation: KIET },
       { name: "Prof. Neeraj", affiliation: KIET },
-      { name: "Prof. Preeti Palwal", role: "Skill Assistant Professor", affiliation: "Shri Vishwakarma Skill University" },
+      { name: "Prof. Preeti Palwal", affiliation: "Shri Vishwakarma Skill University" },
       { name: "Prof. Dipayan Guha", affiliation: "MNNIT Allahabad" },
       { name: "Prof. Ajay Kumar Sahu", affiliation: FOT },
       { name: "Prof. Shubham Gupta", affiliation: FOT },
@@ -194,7 +191,7 @@ export const committeeGroups: CommitteeGroup[] = [
 export const internationalAdvisoryBoard: Person[] = [
   { name: "Prof. Mohan Kolhe", affiliation: "University of Agder, Norway" },
   { name: "Prof. Sanjeevikumar Padmanaban", affiliation: "Aarhus University, Denmark" },
-  { name: "Prof. Arkady Zaslavsky", role: "Senior Principal Research Scientist", affiliation: "CSIRO, Australia" },
+  { name: "Prof. Arkady Zaslavsky", affiliation: "CSIRO, Australia" },
   { name: "Prof. Maria Ganzha", affiliation: "Warsaw University of Technology, Poland" },
   { name: "Prof. Harish Sarma Krishnamoorthy", affiliation: "University of Houston, USA" },
   { name: "Prof. Subham Sahoo", affiliation: "Aalborg University, Denmark" },

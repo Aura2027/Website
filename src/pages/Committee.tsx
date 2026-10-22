@@ -12,10 +12,11 @@ import {
 
 const FOT_AFFILIATION = "Faculty of Technology, University of Delhi";
 
-// External members first, Faculty of Technology members last; original order kept within each.
+// Pinned members first, then external members, then Faculty of Technology members; original order kept within each.
 const externalFirst = (members: Person[]): Person[] => [
-  ...members.filter((m) => m.affiliation !== FOT_AFFILIATION),
-  ...members.filter((m) => m.affiliation === FOT_AFFILIATION),
+  ...members.filter((m) => m.pinned),
+  ...members.filter((m) => !m.pinned && m.affiliation !== FOT_AFFILIATION),
+  ...members.filter((m) => !m.pinned && m.affiliation === FOT_AFFILIATION),
 ];
 
 export function Committee() {
