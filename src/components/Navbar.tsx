@@ -47,12 +47,15 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 sm:px-8 lg:px-12">
         <Link to="/" className="flex items-center gap-3">
           <img src={duLogo} alt="University of Delhi crest" className="h-11 w-11 sm:h-12 sm:w-12" />
-          <div className="min-w-0 leading-tight">
-            <p className="font-display text-lg font-semibold text-du-maroon sm:text-xl">
+          <div className="min-w-0 shrink-0 leading-tight">
+            <p className="text-left font-display text-lg font-semibold text-du-maroon sm:text-xl">
               {siteConfig.fullTitle}
             </p>
-            <p className="text-[10px] font-medium uppercase tracking-[0.08em] text-ink/50 sm:text-xs sm:tracking-[0.12em]">
-              Faculty of Technology, University of Delhi
+            <p className="text-left text-[10px] font-medium uppercase tracking-[0.12em] text-ink/50 sm:text-xs sm:tracking-[0.16em]">
+              Faculty of Technology
+            </p>
+            <p className="text-left text-[10px] font-medium uppercase tracking-[0.12em] text-ink/50 sm:text-xs sm:tracking-[0.16em]">
+              University of Delhi
             </p>
           </div>
         </Link>
@@ -125,7 +128,7 @@ export function Navbar() {
 
         <Link
           to="/call-for-papers"
-          className="hidden rounded-full bg-du-maroon px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-du-maroon/20 transition-transform hover:scale-[1.03] lg:inline-flex"
+          className="hidden rounded-full bg-du-maroon px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-du-maroon/20 transition-transform hover:scale-[1.03] lg:inline-flex whitespace-nowrap"
         >
           Submit Paper
         </Link>
