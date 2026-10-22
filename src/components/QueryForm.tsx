@@ -64,7 +64,7 @@ export function QueryForm() {
 
   const mailtoFallback = `mailto:${siteConfig.contact.email}?subject=${encodeURIComponent(
     `${siteConfig.fullTitle} query from ${name}`,
-  )}&body=${encodeURIComponent(`${query}\n\n— ${name} (${email})`)}`;
+  )}&body=${encodeURIComponent(`${query}\n\nFrom: ${name} (${email})`)}`;
 
   return (
     <section id="query" className="border-t border-ink/8 bg-du-maroon/[0.03] py-20 sm:py-24">
@@ -92,7 +92,7 @@ export function QueryForm() {
                 role="status"
                 className="flex h-full flex-col justify-center rounded-2xl border border-ink/8 bg-white p-8"
               >
-                <p className="font-display text-xl font-medium text-ink">Thank you — your query has been sent.</p>
+                <p className="font-display text-xl font-medium text-ink">Thank you. Your query has been sent.</p>
                 <p className="mt-2 text-sm text-ink/60">We'll reply to the email address you provided.</p>
                 <button
                   type="button"
@@ -148,7 +148,7 @@ export function QueryForm() {
                   id="query-word-count"
                   className={`mt-2 text-right text-xs ${overLimit ? "font-semibold text-red-600" : "text-ink/45"}`}
                 >
-                  {words} / {MAX_WORDS} words{overLimit && " — please shorten your query"}
+                  {words} / {MAX_WORDS} words{overLimit && ": please shorten your query"}
                 </p>
 
                 {/* Honeypot: hidden from people, tempting to bots */}

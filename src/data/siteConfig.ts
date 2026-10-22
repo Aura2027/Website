@@ -36,7 +36,7 @@ export const siteConfig = {
       "https://cms-resources.apps.public.k8s.springernature.io/springer-cms/rest/v1/content/27852136/data/Microsoft%20Word%20Proceedings%20Template%20ZIP",
   },
   registration: {
-    // Placeholder — no external registration portal supplied yet.
+    // Placeholder: no external registration portal supplied yet.
     url: "#",
     label: "Registration portal to be announced",
   },
@@ -45,7 +45,7 @@ export const siteConfig = {
     people: [
       {
         name: "Prof. Anuradha Tomar",
-        role: "Organizing Chair — Associate Professor & Head, Department of Electrical Engineering",
+        role: "Organizing Chair, Associate Professor & Head, Department of Electrical Engineering",
         affiliation: "Faculty of Technology, University of Delhi",
       },
       {

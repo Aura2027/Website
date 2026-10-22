@@ -30,7 +30,7 @@ export function About() {
             <p className="mt-4 text-base leading-relaxed text-ink/70">
               While MARC addressed a broad technological spectrum, {siteConfig.fullTitle} is a purposefully focused
               conference dedicated to the convergence of Artificial Intelligence with critical energy infrastructure
-              and industrial automation — a domain of rapidly accelerating global and national importance.
+              and industrial automation, a domain of rapidly accelerating global and national importance.
             </p>
           </Reveal>
 
@@ -68,8 +68,8 @@ export function About() {
               platform for channeling cutting-edge research into actionable knowledge.
             </p>
             <p className="mt-4 text-base leading-relaxed text-ink/70">
-              The {siteConfig.organiser.department}, {siteConfig.organiser.university} — with its strong research
-              groups in Electrical Engineering, Computer Science, and Physics — is an ideal host. The organizing team
+              The {siteConfig.organiser.department}, {siteConfig.organiser.university}, with its strong research
+              groups in Electrical Engineering, Computer Science, and Physics, is an ideal host. The organizing team
               brings direct experience of running Springer-published international conferences, giving{" "}
               {siteConfig.fullTitle} a credible and low-risk execution profile.
             </p>
@@ -103,7 +103,7 @@ export function About() {
         <Container>
           <SectionHeading
             eyebrow="Publication"
-            title="Springer LNEE — Scopus Indexed"
+            title="Springer LNEE, Scopus Indexed"
             align="center"
           />
           <Reveal delay={0.1}>

@@ -146,7 +146,7 @@ export function Home() {
               </p>
               <p className="mt-4 text-base leading-relaxed text-ink/65 sm:text-lg">
                 {siteConfig.fullTitle} is a purposefully focused conference dedicated to the convergence of Artificial
-                Intelligence with critical energy infrastructure and industrial automation — a domain of rapidly
+                Intelligence with critical energy infrastructure and industrial automation, a domain of rapidly
                 accelerating global and national importance.
               </p>
               <Link

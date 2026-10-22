@@ -7,7 +7,7 @@ export interface FeeRow {
 
 export const feeSchedule: FeeRow[] = [
   {
-    category: "Indian Authors — Research Scholars / Faculty / PhD Students / Postdocs",
+    category: "Indian Authors: Research Scholars / Faculty / PhD Students / Postdocs",
     earlyBird: "₹7,000 (flat) + GST",
     standard: "₹7,000 (flat) + GST",
     note: "Uniform flat rate across all Indian author categories",

@@ -31,7 +31,7 @@ export const tracks: Track[] = [
       "Solar irradiance and photovoltaic output forecasting using ML/DL models",
       "Wind speed and wind turbine power curve modelling using AI",
       "AI-based energy storage management and battery state-of-health estimation",
-      "Integration of renewables into smart grids — stability and power quality challenges",
+      "Integration of renewables into smart grids: stability and power quality challenges",
       "AI-driven microgrid energy management and autonomous dispatch algorithms",
     ],
   },
@@ -99,7 +99,7 @@ export const tracks: Track[] = [
       "Green technologies aligned with UN SDGs, Industry 5.0, and quantum computing for energy.",
     scope: [
       "AI for green technology innovation aligned with UN Sustainable Development Goals (SDGs)",
-      "Industry 5.0 — human-centric, resilient, and sustainable intelligent manufacturing",
+      "Industry 5.0: human-centric, resilient, and sustainable intelligent manufacturing",
       "Quantum computing applications in energy system optimization and simulation",
       "AI for climate modelling, environmental monitoring, and disaster resilience",
     ],
