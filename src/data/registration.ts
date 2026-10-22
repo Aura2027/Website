@@ -9,23 +9,23 @@ export const feeSchedule: FeeRow[] = [
   {
     category: "Indian Authors: Research Scholars / Faculty / PhD Students / Postdocs",
     earlyBird: "₹7,000 (flat) + GST",
-    standard: "₹7,000 (flat) + GST",
+    standard: "₹8,400 (flat) + GST",
     note: "Uniform flat rate across all Indian author categories",
   },
   {
     category: "Attendee Registration (without paper)",
     earlyBird: "₹1,500 + GST",
-    standard: "₹1,500 + GST",
+    standard: "₹1,800 + GST",
   },
   {
     category: "International Authors (Academia)",
-    earlyBird: "USD 120 (≈ ₹10,000) + GST",
-    standard: "USD 150 (≈ ₹12,500)",
+    earlyBird: "USD 120 + GST",
+    standard: "USD 144",
   },
   {
     category: "International Attendee (online participation)",
     earlyBird: "₹1,500 + GST",
-    standard: "₹1,500 + GST",
+    standard: "₹1,800 + GST",
   },
 ];
 
