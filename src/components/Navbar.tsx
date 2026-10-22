@@ -47,12 +47,12 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 sm:px-8 lg:px-12">
         <Link to="/" className="flex items-center gap-3">
           <img src={duLogo} alt="University of Delhi crest" className="h-11 w-11 sm:h-12 sm:w-12" />
-          <div className="leading-tight">
+          <div className="min-w-0 leading-tight">
             <p className="font-display text-lg font-semibold text-du-maroon sm:text-xl">
               {siteConfig.fullTitle}
             </p>
-            <p className="text-[10px] font-medium uppercase tracking-[0.16em] text-ink/50 sm:text-xs">
-              University of Delhi
+            <p className="text-[10px] font-medium uppercase tracking-[0.08em] text-ink/50 sm:text-xs sm:tracking-[0.12em]">
+              Faculty of Technology, University of Delhi
             </p>
           </div>
         </Link>

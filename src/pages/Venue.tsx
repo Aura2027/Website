@@ -51,11 +51,18 @@ export function Venue() {
             <Reveal>
               <div className="h-full rounded-2xl border border-dashed border-du-gold/50 bg-white p-6">
                 <p className="font-display text-lg font-medium text-ink">Travel Information</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/60">
-                  Detailed travel information — including nearest airport, railway station, and local transport
-                  options to the University of Delhi North Campus — will be published here closer to the conference
-                  dates.
-                </p>
+                <ul className="mt-3 space-y-2 text-sm leading-relaxed text-ink/60">
+                  <li>
+                    <span className="font-medium text-ink/80">Nearest Airport:</span> IGI Airport
+                  </li>
+                  <li>
+                    <span className="font-medium text-ink/80">Nearest Railway Station:</span> New Delhi
+                  </li>
+                  <li>
+                    <span className="font-medium text-ink/80">Nearest Metro Station:</span> Vishwavidyalaya
+                    (Yellow Line, Delhi Metro)
+                  </li>
+                </ul>
               </div>
             </Reveal>
             <Reveal delay={0.06}>
