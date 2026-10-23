@@ -18,12 +18,14 @@ export function Button({
   children,
   variant = "primary",
   className = "",
+  download,
 }: {
   to?: string;
   href?: string;
   children: ReactNode;
   variant?: Variant;
   className?: string;
+  download?: boolean | string;
 }) {
   const classes = `inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold tracking-wide transition-all duration-300 ${variantClasses[variant]} ${className}`;
 
@@ -35,7 +37,13 @@ export function Button({
     );
   }
   return (
-    <a href={href} className={classes} target={href?.startsWith("http") ? "_blank" : undefined} rel="noreferrer">
+    <a
+      href={href}
+      className={classes}
+      target={href?.startsWith("http") ? "_blank" : undefined}
+      rel="noreferrer"
+      download={download}
+    >
       {children}
     </a>
   );
