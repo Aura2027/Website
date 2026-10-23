@@ -35,6 +35,11 @@ export const siteConfig = {
     templateUrl:
       "https://cms-resources.apps.public.k8s.springernature.io/springer-cms/rest/v1/content/27852136/data/Microsoft%20Word%20Proceedings%20Template%20ZIP",
   },
+  poster: {
+    url: "https://cmt3.research.microsoft.com/AURA2027/Track/5/Submission/Create",
+    label: "Submit Your Poster",
+    templateUrl: "/AURA2027_Poster_Template.pptx",
+  },
   registration: {
     // Placeholder: no external registration portal supplied yet.
     url: "#",
