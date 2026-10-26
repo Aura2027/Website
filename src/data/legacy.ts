@@ -40,7 +40,7 @@ export const conferenceFormat: string[] = [
   "Inaugural ceremony with dignitaries from academia, government, and industry",
   "Keynote addresses by 4–6 eminent national and international experts",
   "Invited talks from industry leaders and senior research scientists",
-  "Peer-reviewed technical paper presentations (oral and poster sessions)",
+  "Peer-reviewed technical paper presentations",
   "Panel discussions on national policy, industry challenges, and AI ethics in critical infrastructure",
   "Pre-conference / co-located workshops and hands-on tutorials on emerging AI tools",
 ];

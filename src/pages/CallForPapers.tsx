@@ -129,45 +129,6 @@ export function CallForPapers() {
         </Container>
       </section>
 
-      <section className="bg-du-maroon/[0.03] py-20 sm:py-28">
-        <Container className="max-w-4xl">
-          <SectionHeading eyebrow="Posters" title="Call for Poster" />
-          <Reveal delay={0.1}>
-            <p className="mt-8 text-base leading-relaxed text-ink/70">
-              {siteConfig.fullTitle} also invites poster contributions from researchers, students, and practitioners
-              presenting early-stage work, preliminary results, or ongoing projects.
-            </p>
-            <h3 className="mt-8 font-display text-xl font-semibold text-ink">Before You Submit</h3>
-            <ul className="mt-4 list-disc space-y-3 pl-6 text-base leading-relaxed text-ink/75 marker:text-du-maroon">
-              <li>
-                <a
-                  href={siteConfig.submission.accountUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-medium text-du-maroon underline underline-offset-2 hover:text-du-maroon-dark"
-                >
-                  Create a CMT account
-                </a>{" "}
-                using the email address you want to use for this conference.
-              </li>
-              <li>When creating your submission, select the Poster track.</li>
-              <li>Choose the subject area that best fits your poster.</li>
-              <li>Poster Size: A0, Portrait (841 × 1189 mm / 33.1 × 46.8 inches).</li>
-              <li>
-                Upload your poster as a single PDF file (maximum 10 MB). A submission without the PDF is incomplete
-                and will not be reviewed.
-              </li>
-            </ul>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <Button href={siteConfig.poster.url}>{siteConfig.poster.label}</Button>
-              <Button href={siteConfig.poster.templateUrl} variant="ghost" download>
-                Download Poster Template
-              </Button>
-            </div>
-          </Reveal>
-        </Container>
-      </section>
-
       <section className="py-20 sm:py-28">
         <Container>
           <Reveal className="text-center">
